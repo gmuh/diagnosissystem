@@ -1,0 +1,50 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 3.0 License
+
+Name       
+: Anodized
+Description: A two-column, fixed-width design with a dark color scheme.
+Version    
+: 1.0
+Released   : 20120705
+*/
+
+
+		
+		#footer{
+ 			margin-bottom: 100px;
+			border-radius: 25%;
+			text-align: center;
+			background-color: green;
+			margin-top: auto;
+			width: 100%;
+			}				
+   
+
+	#log{
+			border: 5px solid #777;
+			padding: 15px;
+			height: auto;
+			border-radius: 0 0 80px 80px;
+			background-color: ;
+			
+		}
+		#log ul li{
+			list-style-type: none;
+			font-family: broadway;
+			color: 000;
+			margin-top: 50px;
+			text-align: center;
+			font-size: 18px;
+			line-height: 50px;
+
+		}
+
+		#h2{
+			color:blue;
+		}
+		#list ol li{
+			color:green;
+		}

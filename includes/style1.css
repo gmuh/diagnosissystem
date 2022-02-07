@@ -1,0 +1,444 @@
+/*
+Design Ibrahim Abdulrahman Ibrahim
+
+
+Name       
+: Ibrahim
+Description: A two-column, fixed-width design with a dark color scheme.
+
+Released   : 2012/2013
+*/
+
+* F{
+
+	 margin: 0;
+	
+	padding: 0;
+
+}
+.errors{
+	color:red;
+	}
+
+a {
+	
+	text-decoration: none;
+	
+	color: #e8e8e8;
+	
+
+}
+
+
+a:hover {
+	color:green;
+	text-decoration: none;
+	
+}
+
+/*outside the page*/
+body {
+
+	line-height: 1.6em;
+	
+	font-family: Times New Roman;
+	
+	background: #e8e8e8;
+	
+	color:black;
+	background: url(images/bbgg.jpg);
+	background-repeat:repeat-x
+	
+}
+br.clearfix {
+	
+	clear: both;
+
+}
+
+img.top {
+	
+	margin: 8px 0 20px 0;
+
+}
+
+ul {
+	
+	list-style: none;
+
+}
+
+
+
+}
+
+
+.image-list li {
+	
+	clear: both;
+
+}
+
+
+.box {	
+	margin: 0 0 30px 0;
+
+	margin-top:0px;
+}
+
+
+#box-left {
+	
+	width: 412px;
+	
+	overflow: hidden;
+	
+	float: left;
+
+}
+
+
+#box-right {
+	
+	width: 330px;
+	
+	overflow: hidden;
+	
+	margin: 0 0 0 336px;
+
+}
+
+
+#content {
+	
+	width: 580px;
+	
+	float:left;
+	
+	padding: 0;
+
+}	
+#content1 {
+	
+	width: 750px;
+	
+	float: center;
+	
+	padding: 0;
+}
+
+#footer {
+	
+	padding: 40px 0 95px 0;
+	
+	text-align: center;
+	
+	color: #606060;
+
+}
+
+
+#footer a {
+	
+	color: #707070;
+
+}
+
+
+#header {
+	
+	position: relative;
+	
+	/*padding: 28px;*/
+	
+	width:10%;
+	
+	height: 130px;
+
+}
+
+
+#logo {
+	
+	position: relative;
+	/*top:50px;*/
+	height: 150px;
+	width:100%;
+	/*line-height: 130px;*/
+   
+}
+
+
+#logo a {
+	
+	text-decoration: none;
+	width:100%;
+	color: #ffffff;
+
+
+}
+
+#page{
+	
+	position: relative;
+	margin: 0 auto;
+	padding: 50px 28px 0px 28px;
+	height:400px auto;
+	width: 883px;
+	background-color:#ffffff;
+	border: solid 1px green;
+	border-top:0;
+	border-bottom-left-radius:4em;
+}
+
+
+#page ul li {
+	
+	padding: 7px 0 7px 0;
+	
+	border-top: solid 1px #606060;
+	font-size:20px;
+}
+
+
+#page ul li.first {
+
+	padding-top: 0;
+	
+	border-top: 0;
+
+	font-size:25px;
+}
+
+
+#page-bottom {
+
+	position: relative;
+	
+	padding: 50px 28px 0px 28px;
+	
+	width: 922px;
+	background: rgba(15, 20, 20, 0.35);
+	
+	color: #999;
+	
+	border: solid 1px #3f3f3f;
+	
+	border-top: 0;
+
+}
+
+
+#page-bottom ul li {
+
+	padding: 12px 0 12px 0;
+	
+	border-top: solid 1px #292929;
+
+}
+
+
+#page-bottom ul li.first {
+	
+	padding-top: 0;
+	border-top: 0;
+
+}
+
+
+#page-bottom ul li {
+	
+	border-top: solid 1px #404040;
+
+}
+
+
+#page-bottom-content {
+	
+	width: 750px;
+	float: left;
+
+}
+
+
+#page-bottom-sidebar {
+	
+	width: 750px;
+	margin: 0 0 0 674px;
+
+}
+#centerbody{
+	position:relative;
+	width: 100%;
+	margin-bottom:10%;
+	}
+
+#menu {
+	font-size: 15pt;
+	position: absolute;
+	
+	bottom: 0;
+	
+	left: 0;
+	
+	height: 40px;
+	
+	line-height: 12px;
+	
+	padding: 0 20px 0 20px;
+	
+	width: 900px;
+	
+	margin: 0 0 0 0;
+	
+	background: green;
+	
+	border: solid 1px lightgreen;
+
+}
+
+
+#menu a {
+	
+	text-decoration: none;
+	
+	text-transform: uppercase;
+	
+	color: #ffffff;
+	
+	padding: 2px 8px 2px 8px;
+	
+	border: solid 0px green;
+
+}
+
+
+#menu ul {
+
+	list-style: none;
+
+}
+
+
+#menu ul li {
+	
+	display: inline;
+	
+	padding: 0 8px 0 8px;
+
+}
+
+
+#menu ul li.first {
+
+	padding-left: 0;
+
+}
+
+#menu ul li.active a {
+	
+	background: #green;
+	
+	border: solid 2px green;
+
+}
+
+
+#menu ul li:hover a {
+
+	background: green;
+	
+	border: solid 1px #FFFFFF;
+
+	text-transform:lowercase;
+}
+
+
+#wrapper {
+	
+	position: relative;
+	
+	width: 900px;
+
+	margin: 0px auto 0 auto;
+}
+
+
+#search {
+	
+	position: absolute;
+	
+	top: 0;
+	
+	right: 28px;
+	
+	height: 100px;
+	
+	line-height: 130px;
+
+}
+
+
+#search input.text {
+	
+	padding: 10px 40px 10px 10px;
+	
+	background: rgba(15, 20, 20, 0.4) url(images/search.png) top right no-repeat;
+	
+	border: 0;
+	
+	color: #c7c8c8;
+	
+	width: 250px;	
+	border: solid 1px #3c3c3c;
+
+}
+input.text, textarea {
+color:green;
+
+}
+
+
+#sidebar{
+
+	width: 255px;
+	
+	margin: 0 0 0 650px;
+	
+	padding: 0;
+	
+
+}
+#table we{
+		padding:4px;
+
+}
+#table td{
+	align:center;
+}
+#form td input{
+
+		padding:0;
+		border:none;
+		float:left;
+		width:140px;
+		color:black;
+}
+h2.green{
+		color:green;
+		font-style:italic;
+
+
+}
+.noprint{
+        display:none;
+}
+.legend{
+	color:green;
+	font-size:15px;
+}
+.fieldset{
+	border: solid 1px green;
+	border-radius:25px;
+	background-color:#FFFFCC;
+}		
